@@ -218,6 +218,7 @@ public class ScrollingActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<MovieEntity> call, Response<MovieEntity> response) {
                 testTv.setText(response.body().toString());
+                String teshtisihi ;
             }
 
             @Override
